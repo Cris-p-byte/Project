@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JBL Headphones - Premium Audio Experience</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <i class="ri-volume-fill"></i>
+        JBL
+      </a>
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active-link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#favorite" class="nav__link">Favorites</a></li>
+        <li><a href="#model" class="nav__link">Models</a></li>
+      </ul>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home section" id="home" data-aos="fade-up">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <h1 class="home__title">
+            <span class="title__line">JBL</span>
+            <span class="title__line">Tune</span>
+          </h1>
+          <p class="home__description">
+            Feel the deep bass and immersive sound experience with JBL's premium headphones. Engineered for pure audio bliss.
+          </p>
+          <div class="home__buttons">
+            <a href="#" class="button button--primary" data-modal="buy-modal">
+              <i class="ri-shopping-cart-line"></i>
+              Buy Now
+            </a>
+            <a href="#model" class="button button--secondary">
+              <i class="ri-play-fill"></i>
+              View Specs
+            </a>
+          </div>
+        </div>
+        <div class="home__img-wrapper">
+          <div class="home__img-float">
+            <img src="img/home-img.png" class="home__img" alt="JBL Headphones">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+<section class="about section" id="about" data-aos="fade-right">
+  <div class="about__container container grid">
+    <div class="about__img-wrapper">
+      <img src="img/about-img.png" class="about__img about__img-float" alt="JBL Features">
+    </div>
+    <div class="about__content">
+      <h2 class="section__title">About Us</h2>
+      <p class="about__text">
+        Enjoy crystal-clear sound with advanced noise cancellation, long battery life, and premium comfort for all-day listening. 
+        Experience audio excellence with JBL.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- FAVORITE -->
+<section class="favorite section" id="favorite" data-aos="fade-up">
+  <h2 class="section__title">Choose Your Favorite</h2>
+  <div class="swiper favorite-swiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide favorite__card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="favorite__img-wrapper">
+          <img src="img/favorite-1.png" alt="Black Model">
+          <div class="favorite__overlay">
+            <i class="ri-heart-fill favorite__wish"></i>
+          </div>
+        </div>
+        <h3 class="favorite__title">Black Model</h3>
+        <p class="favorite__price">$199 <span class="favorite__old-price">$249</span></p>
+        <button class="favorite__btn">Add to Cart</button>
+      </div>
+
+      <div class="swiper-slide favorite__card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="favorite__img-wrapper">
+          <img src="img/favorite-2.png" alt="White Model">
+          <div class="favorite__overlay">
+            <i class="ri-heart-fill favorite__wish"></i>
+          </div>
+        </div>
+        <h3 class="favorite__title">White Model</h3>
+        <p class="favorite__price">$199 <span class="favorite__old-price">$249</span></p>
+        <button class="favorite__btn">Add to Cart</button>
+      </div>
+
+      <div class="swiper-slide favorite__card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="favorite__img-wrapper">
+          <img src="img/favorite-3.png" alt="Red Model">
+          <div class="favorite__overlay">
+            <i class="ri-heart-fill favorite__wish"></i>
+          </div>
+        </div>
+        <h3 class="favorite__title">Red Model</h3>
+        <p class="favorite__price">$219 <span class="favorite__old-price">$269</span></p>
+        <button class="favorite__btn">Add to Cart</button>
+      </div>
+
+      <div class="swiper-slide favorite__card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="favorite__img-wrapper">
+          <img src="img/favorite-4.png" alt="Blue Model">
+          <div class="favorite__overlay">
+            <i class="ri-heart-fill favorite__wish"></i>
+          </div>
+        </div>
+        <h3 class="favorite__title">Blue Model</h3>
+        <p class="favorite__price">$229 <span class="favorite__old-price">$279</span></p>
+        <button class="favorite__btn">Add to Cart</button>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next favorite-swiper-button-next"></div>
+    <div class="swiper-button-prev favorite-swiper-button-prev"></div>
+  </div>
+</section>
+
+<!-- MODEL -->
+<section class="model section" id="model" data-aos="fade-up">
+  <h2 class="section__title">Model Specifications</h2>
+  <div class="model__container container">
+    <div class="model__img-box">
+      <img src="img/model-img.png" class="model__img" alt="Model Specs">
+      <div class="model__tooltip">
+        <img src="img/tooltip-right.svg" class="tooltip__arrow" alt="">
+        <div class="tooltip__content">
+          <ul>
+            <li><span class="spec-icon">⚡</span> Fast Charging: 10 min = 2 hours</li>
+            <li><span class="spec-icon">🔊</span> Deep Bass: JBL Pure Bass Sound</li>
+            <li><span class="spec-icon">🎧</span> Comfort Fit: All-day wearing comfort</li>
+            <li><span class="spec-icon">🔋</span> Long Battery: 40+ hours playtime</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 JBL Clone. All rights reserved. | Made with ❤️ for web developers</p>
+    </div>
+  </footer>
+
+  <!-- MODAL OVERLAY -->
+  <div class="modal-overlay" id="modal-overlay"></div>
+
+
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="main.js"></script>
+</body>
+</html>
